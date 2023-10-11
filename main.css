@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+.campos{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecalho{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(65, 43, 129, 0.31);
+}
+input{
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.fundo{
+    background-color: rgb(192, 189, 187);
+}
+.title{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botao{
+    background-color: rgb(62, 166, 225);;
+    color: white;
+    border-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+main{
+    padding: 30px 500px;
+}
+
+.border{
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+button{
+    padding: 20px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(8, 174, 174);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+thead{
+    background-color: rgb(153, 152, 176);
+}
+
+img{
+    width: 20px;
+}
+
+td{
+    border: 3px solid;
+}
+
+th{
+    border: 3px solid;
+}

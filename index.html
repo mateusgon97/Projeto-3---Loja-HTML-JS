@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Projeto Loja</title>
+</head>
+<body class = "fundo">
+    <header style="position: relative; text-align: center;" class = "cabecalho">
+        Projeto de ERP
+    </header>
+    <main>
+        <div class = "border" style="position: relative; text-align: center;">
+            <label class = "title">Cadastro de Produtos</label>
+
+            <div>
+                <br>
+                <label class = "campos">Nome do produto</label><br>
+                <input input type="text" id="nomeProd" name="" placeholder="Nome"><br>
+            </div>
+            <div>
+                <br><br>
+                <label class = "campos">Valor do produto</label>
+                <br>
+                <input input type="number" id="valorProd" name="" placeholder="Valor">
+                <br>
+            </div>
+            <br>
+            <button class= "botao" onclick="produto.salvar()" id = "btn">SALVAR</button>
+            <button class= "botao" onclick="produto.cancelar()">CANCELAR</button>
+            
+        </div>
+
+    <table border = 1; class = "table">
+        <thead>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Ações</th>
+        </thead>
+    
+    <tbody id="tbody">
+        <tr>
+            <td>1</td>
+            <td>Mesa</td>
+            <td>200.00</td>
+            <td>
+                <img src="img\edit.png" alt="edit">
+                <img src="img\excluir.png" alt="delete">
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    </main>
+    
+</body>
+<script src="main.js"></script>
+</html>
